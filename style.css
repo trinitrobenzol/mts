@@ -96,7 +96,7 @@ section {
 	position: relative;
 	border: none;
 	border-radius: 8px;
-	font-size: 0.95em;
+	font-size: 1.2em;
 	color: #fff;
 }
 .bubble blockquote:before, .bubble blockquote:after {
