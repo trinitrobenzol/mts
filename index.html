@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - TESTxx</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CodePen - МТС Медитация NEW_9555</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/jquery.slick/1.5.0/slick.css'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/jquery.slick/1.5.0/slick-theme.css'>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PQJLL5P');</script>
+    <!-- End Google Tag Manager -->
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PQJLL5P" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    <!-- partial:index.partial.html -->
+    <!-- Meta Params -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Head Logo + text -->
+    <!-- СЮДА ПРИВЕТ, ИМЯ ВМЕСТО ЛОГО -->
+  <div class="content-wrapper">
+    <div class="hero">
+      <div class="hero__heading">
+        Добрый день, <span class="name_user"></span>.
+      </div>
+    </div>
+    <!-- Section with text -->
+  </div>
+   <div class="content-wrapper">
+    <p style="text-align: center;"><span style="color: #575757; font-size: 13px;"><strong><span class="subtitle">Расслабьтесь и сконцентрируйтесь на дыхании</span></strong></span></p>
+    </div>
+
+    <!-- Play Button SVG -->
+    <div class="content-wrapper play-container">
+    <svg id="play" onclick="startAnimation();" viewBox="0 0 163 163" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"="0px">
+        <g fill="none">
+            <g transform="translate(2.000000, 2.000000)" stroke-width="4">
+                <path d="M10,80 C10,118.107648 40.8923523,149 79,149 L79,149 C117.107648,149 148,118.107648 148,80 C148,41.8923523 117.107648,11 79,11" id="lineOne" stroke="#58a185"></path>
+                <path d="M105.9,74.4158594 L67.2,44.2158594 C63.5,41.3158594 58,43.9158594 58,48.7158594 L58,109.015859 C58,113.715859 63.4,116.415859 67.2,113.515859 L105.9,83.3158594 C108.8,81.1158594 108.8,76.6158594 105.9,74.4158594 L105.9,74.4158594 Z" id="triangle" stroke="#58a185"></path>
+                <path d="M159,79.5 C159,35.5933624 123.406638,0 79.5,0 C35.5933624,0 0,35.5933624 0,79.5 C0,123.406638 35.5933624,159 79.5,159 L79.5,159" id="lineTwo" stroke="#58a185"></path>
+            </g>
+        </g>
+    </svg>
+    </div>
+    <!-- Small Bubbles on background -->
+    <div class="bubble_small"></div>
+    <div class="bubble_small"></div>
+    <div class="bubble_small"></div>
+    <div class="bubble_small"></div>
+    <div class="bubble_small"></div>
+    <div class="bubble_small"></div>
+    <div class="bubble_small"></div>
+    <div class="bubble_small"></div>
+    <div class="bubble_small"></div>
+    <div class="bubble_small"></div>
+    
+    <!-- Container with circle -->
+    <div class="container" style="display:none;" id="container">
+        <div class="circle"></div>
+        <p id="text"></p>
+        <div class="pointer-container">
+            <span class="pointer"></span>
+        </div>
+        <div class="gradient-circle"></div>
+    </div>
+    <!-- Section with Audio Play -->
+
+    <div>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </div>
+
+    <div>
+        <audio hidden loop>
+            <source src="https://files.freemusicarchive.org/storage-freemusicarchive-org/tracks/4raUTPjjS58YqulKUNKFNGRveN7ghdCMHo1hyGZz.mp3" type="audio/mp3">
+        </audio>
+    </div>
+  </div>
+    <!-- Section with quotes -->
+    <section class="quotes">
+        <div class="bubble">
+            <blockquote>На пути своих исканий не бойся бед — в свое время они сменятся радостью
+            </blockquote>
+            <div></div>
+            <cite> Хафиз Ширази </cite>
+        </div>
+        <div class="bubble">
+            <blockquote> Благоприятная возможность скрывается среди трудностей и проблем
+            </blockquote>
+            <div></div>
+            <cite> Альберт Эйнштейн </cite>
+        </div>
+        <div class="bubble">
+            <blockquote> Самый лучший способ подбодрить себя — это подбодрить кого-нибудь
+            </blockquote>
+            <div></div>
+            <cite> Марк Твен </cite>
+        </div>
+        <div class="bubble">
+            <blockquote> Счастливая жизнь начинается со спокойствия ума </blockquote>
+            <div></div>
+            <cite> Цицерон </cite>
+        </div>
+        <div class="bubble">
+            <blockquote> Все течет, все меняется. И никто не был дважды в одной реке. Ибо через миг и река была не та, и сам он уже не тот </blockquote>
+            <div></div>
+            <cite> Гераклит Эфесский </cite>
+        </div>
+        <div class="bubble">
+            <blockquote> Спокойствие находится внутри вас. Не ищите его вовне</blockquote>
+            <div></div>
+            <cite> Сиддхартха Гаутама (Будда) </cite>
+        </div>
+        <div class="bubble">
+            <blockquote> В трудных обстоятельствах сохраняй рассудок </blockquote>
+            <div></div>
+            <cite> Гораций </cite>
+        </div>
+        <div class="bubble">
+            <blockquote> Все дело в мыслях. Мысль — начало всего. И мыслями можно управлять. И поэтому главное дело совершенствования: работать над мыслями </blockquote>
+            <div></div>
+            <cite> Лев Толстой </cite>
+        </div>
+        <div class="bubble">
+            <blockquote> В жизни все временно. Если все идет хорошо — наслаждайся, это не будет длиться вечно. Ну а если все паршиво — не кисни, это тоже не навсегда. </blockquote>
+            <div></div>
+            <cite> Федор Достоевский </cite>
+        </div>
+    </section>
+  
+
+    <!-- partial -->
+
+  
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/jquery.slick/1.5.0/slick.min.js'></script>
+    <script src="./script.js"></script>
+    
+    <script>
+    let CLIENT_NAME = "{{CLIENT_NAME}}"
+
+    $('.name_user').html(CLIENT_NAME)
+    </script>
+
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
